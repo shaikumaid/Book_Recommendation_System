@@ -49,8 +49,8 @@ Make sure Python and Streamlit are installed.
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/Book_Recomm_Sys.git
-cd Book_Recomm_Sys
+git clone [https://github.com/shaikumaid/Book_Recommendation_System](https://github.com/shaikumaid/Book_Recommendation_System)
+cd Book_Recommendation_System
 streamlit run app.py
 
 
