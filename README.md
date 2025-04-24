@@ -1,11 +1,15 @@
 📚 Book Recommendation System (Hybrid)
 This is a hybrid book recommendation system that suggests books based on either:
 
+
+
 👤 User ID: Recommends books personalized to a specific user.
 
 📘 Book Title: Recommends books similar to a given book.
 
 It combines User-Based and Item-Based Collaborative Filtering using KNN models built from scratch with fallback logic for cold-start problems.
+
+
 
 💡 Features
 🔍 Hybrid Input: Accepts either User ID or Book Title
@@ -19,6 +23,8 @@ It combines User-Based and Item-Based Collaborative Filtering using KNN models b
 🖼️ Book Covers: Displays book cover image, title, and author
 
 🚨 Fallback Suggestions: Recommends top-rated books for unknown inputs
+
+
 
 🧰 Technologies Used
 Python
@@ -42,6 +48,8 @@ Jupyter Notebook
 ├── trainset_item.pkl – Item similarity matrix
 ├── title_to_isbn.pkl – Title-to-ISBN mapping
 └── README.md
+
+
 
 🚀 How to Run Locally
 Make sure Python and Streamlit are installed.
